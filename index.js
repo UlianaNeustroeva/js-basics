@@ -8,5 +8,9 @@ function Circle(radius) {
 const circle = new Circle(10);
 
 for (let key in circle) {
-    console.log(key, circle[key]);
+    if (typeof circle[key] !== 'function')
+     console.log(key, circle[key]);
 }
+
+const keys = Objects.keys(circle);
+console.log(keys);
