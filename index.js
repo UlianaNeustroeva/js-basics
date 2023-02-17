@@ -4,7 +4,7 @@ function greet(name, lastName) {
 }
 
 // Calculating a value
-function square(namber) {
+function square(number) {
     return number * number;
 }
 
